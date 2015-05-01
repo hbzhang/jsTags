@@ -104,7 +104,7 @@ jsTag.directive('autoGrow', ['$timeout', function($timeout) {
           $shadow.html(element[0].placeholder);
         }
         
-        var newWidth = ($shadow[0].offsetWidth + 10) + "px";
+        var newWidth = ($shadow[0].offsetWidth + 50) + "px";
         element.css('width', newWidth);
       }
    

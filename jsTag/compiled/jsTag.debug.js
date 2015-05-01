@@ -2,7 +2,7 @@
 * jsTag JavaScript Library - Editing tags based on angularJS 
 * Git: https://github.com/eranhirs/jsTag/tree/master
 * License: MIT (http://www.opensource.org/licenses/mit-license.php)
-* Compiled At: 05/01/2015 09:36
+* Compiled At: 05/01/2015 09:39
 **************************************************/
 'use strict';
 var jsTag = angular.module('jsTag', []);
@@ -643,7 +643,7 @@ jsTag.directive('autoGrow', ['$timeout', function($timeout) {
           $shadow.html(element[0].placeholder);
         }
         
-        var newWidth = ($shadow[0].offsetWidth + 10) + "px";
+        var newWidth = ($shadow[0].offsetWidth + 50) + "px";
         element.css('width', newWidth);
       }
    
