@@ -7,6 +7,7 @@ jsTag.factory('JSTagsCollection', ['JSTag', '$filter', function(JSTag, $filter) 
   function JSTagsCollection(defaultTags) {
     this.tags = {};
     this.tagsCounter = 0;
+    console.log(defaultTags);
     for (var defaultTagKey in defaultTags) {
       var defaultTagValue = defaultTags[defaultTagKey];
       this.addTag(defaultTagValue);
